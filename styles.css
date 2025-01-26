@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, rgb(78, 170, 224), rgb(5, 4, 46));
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.container{
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 5px;
+    box-shadow: 0px 0px  7px black;
+    background-image: linear-gradient(to right, rgb(78, 170, 224), rgb(5, 4, 46));
+    border-radius: 8px;
+    
+}
+input{
+    padding: 8px;
+    width: 380px;
+    border: none;
+    border-radius: 5px;
+    margin:10px 20px;
+    outline: none;
+  
+}
+button{
+    padding: 8px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    
+}
+.details{
+    text-align: center;
+    color: white;
+}
+p{
+    font-size: 20px;
+}
+/* Add this to a style tag in the HTML or in an external CSS file */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#location-form {
+    margin-bottom: 20px;
+}
+
+#weather-container {
+    font-size: 1.2em;
+    color: white;
+}
